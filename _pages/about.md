@@ -15,44 +15,92 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<div id="about-me" class="content-section active" markdown="1">
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+# 👋 A Brief Introduction
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I am currently pursuing a Ph.D. degree at the Hong Kong University of Science and Technology (HKUST), now in my third year, supervised by Professor Guang Zhang.
 
+My research interests focus on **generative model theory and interpretability**. I am also interested in applied research that can generate practical value, such as **Fintech** and other domains.
+
+My work has been published at venues including **ACL 2023**, **ACL 2025**, and **ICAIF**, with additional manuscripts under review at **ICLR**, **ACL Rolling Review (ARR)**, and **ICASSP**. I also serve as a reviewer for leading conferences such as **NeurIPS**, **ICLR**, and **AAAI**.
+
+<hr style="border: 2px solid #ccc; margin: 2em 0;">
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.10*: &nbsp;😊 Two papers received **all positive reviews** in the October  **ACL ARR** cycle!
+- *2025*: &nbsp;🎉🎉 Two papers accepted at **ACL 2025** and **ICAIF 2025**!
+- *2023*: &nbsp;🎉🎉 Paper accepted at **ACL 2023**!
 
-# 📝 Publications 
+<hr style="border: 2px solid #ccc; margin: 2em 0;">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 📝 Published Papers
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- **Yuanjian Xu**, Jianing Hao, and Guang Zhang. "FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness". In **Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)**.
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- **Yuanjian Xu**, Qi An, and Zaiqing Nie. "Hard Sample Aware Prompt-Tuning". In **Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)**.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
+- **Yuanjian Xu**, Jianing Hao, and Guang Zhang. "LENS: Large Pre-trained Transformer for Exploring Financial Time Series Regularities". In **Proceedings of the ACM International Conference on AI in Finance (ICAIF 2025)**.
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div id="publications" class="content-section" style="display: none;" markdown="1">
+<span class='anchor' id='-publications'></span>
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 🔬 Ongoing Work
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+## Under Review
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- **Yuanjian Xu**, Jianing Hao, Guang Zhang. "State Aware Neural Stochastic Differential Equations for Multi-Modal Dynamics." **Under review at ICLR 2026**.
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- **Yuanjian Xu**, Jianing Hao, Guang Zhang. "Mitigating Discretization Bias in Neural Stochastic Differential Equations via Inference-Time Dropout." **Under review at ICLR 2026**.
+
+- **Yuanjian Xu**, Yuan Shuai, Guang Zhang. "Hermite Discriminator for Neural SDEs." **Under review at ICASSP 2026**.
+
+- Jianing Hao, **Yuanjian Xu**, Guang Zhang. "Latent Diffusion for Event Driven Asset Pricing." **Under review at ICASSP 2026**.
+
+- Jianing Hao, Yuhe Wu, **Yuanjian Xu**, Guang Zhang. "BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications." **Under review at ACL Rolling Review**.
+
+- **Yuanjian Xu**, Jianing Hao, Guang Zhang. "DoGraph: Towards Domain-Aware LLM Training with Graph-Guided Weighting." **Under review at ACL Rolling Review**.
+
+## In Preparation
+
+- **Yuanjian Xu**, et al. "Uncertainty Decomposition in Multi-Agent Systems." **Target: ACL**.
+
+- **Yuanjian Xu**, et al. "A Comprehensive Survey on Data Curriculum and Scheduling Strategies in Deep Learning." **Target: IJCAI Survey Track**.
+
+- **Yuanjian Xu**, et al. "Theoretical Advances in Neural Stochastic Differential Equations with Empirical Validation." **Target: IJCAI**.
+
+- **Yuanjian Xu**, et al. "A Theoretical Reinterpretation of Dropout Mechanisms in Deep Learning." **Target: IJCAI**.
+
+- **Yuanjian Xu**, et al. "Neural Network-Based Causal Graph Learning." **Target: IJCAI**.
+
+- **Yuanjian Xu**, et al. "A Systematic Survey of Multi-Agent Learning, Collaboration, and Decision-Making." **Target: IJCAI Survey Track**.
+
+- **Yuanjian Xu**, et al. "Dynamic Patching: Adaptive Representation and Functional Unit Replacement in Neural Networks." **Target: ICML**.
+
+- **Yuanjian Xu**, et al. "Mitigating Gradient Starvation Through Adaptive Data Scheduling." **Target: ICML**.
+
+- **Yuanjian Xu**, et al. "Optimal Data Selection Strategies in the Annealing Stage of Training." **Target: ICML**.
+
+- **Yuanjian Xu**, et al. "A Unified Framework for Time-Series Foundation Model Pretraining." **Target: JMLR**.
+</div>
+
+<div id="experience" class="content-section" style="display: none;" markdown="1">
+<span class='anchor' id='experience'></span>
+
+# 💼 Experience
+
+## Education
+
+I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Science and Technology**. I received my Master's degree in Computer Science from **Peking University**, and my Bachelor's degree in Computer Science from **Nankai University**.
+
+## Research Experience
+
+I have conducted research at leading academic institutions, including **Microsoft Research Asia (MSRA)**, **Tsinghua University's Institute for AI Industry Research (AIR)**, and **Hong Kong University of Science and Technology**. I have also gained research experience in industry, working as a research intern at **HuaTai Securities**.
+
+## Honors and Awards
+- *2023--Present* Full Ph.D. Scholarship, Hong Kong University of Science and Technology
+- *2021* Award for Excellent Academic Excellence, Peking University (Certificate No.: H2021000170320)
+- *2021* Air Star Plan, Tsinghua University, Institute for AI Industry Research (AIR)
+</div>
